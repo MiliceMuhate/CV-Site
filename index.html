@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/sobreMim.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <!-- responsividade com @media queries -->
+    <link rel="stylesheet" href="css/media-principal.css">
+    <link rel="stylesheet" href="css/media-sobreMim.css">
+    <link rel="stylesheet" href="css/media-contacto.css">
+<!-- ----------------------------------------------------- -->
+    <title>Bem-vindo</title>
+</head>
+<body>
+    <div class="conteinner">
+     <!--Parte principal -- apresentacao inicial-->
+    <div class="principal" id="parte-principal">
+        <h4 id="logo">MILICE</h4>
+        <header id="navbar">
+            <nav >
+                <ul>
+                    <li><a href="#parte-principal">PRINCIPAL</a></li>
+                    <li><a href="#parte-sobreMim">SOBRE MIM</a></li>
+                    <li><a href="#parte-contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- minha imagem -->
+        <div class="imagem" id="main-img">
+            <img src="imagens/main_image.jpg" alt="mimha-imagem">
+        </div>
+
+        <!-- minha apresentacao -->
+        <div class="apresentacao">
+            <div class="breve">
+                <p><h1>MILICE JR MUHATE</h1></p><br>
+                <p><h3>DESENVOLVEDOR DE SOFTWARE <em>FULLSTACK</em></h3></p>
+                <div class="botoes">
+                    <button><a href="">LINKEDIN</a></button><br>
+                    <button><a href="">GITHUB</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Sobre Mim-->
+    <div class="sobre" id="parte-sobreMim">
+        <div class="sobreMim" id="resumo">
+            <section>
+                <h1>Sobre mim</h1>
+                <p>
+                    Meu nome é Milice Júnior Muhate.
+                    Sempre gostei de mexer com tecnologias e por isso decidi fazer o nível superrior em uma área ligada a tecnologia. <br>
+                    Sou licenciado em desenvolvimento de software. Ser autodidata me cativa. Boa parte do meu conheciamento em tecnologias provém
+                    do meu auto estudo, segundo os meus interesses e as necessidades do mercado.
+                </p><br>
+
+            <h3>TECNOLOGIAS CONHECIDAS</h3>
+            <p>HTML, CSS, BOOTSTRAP, JAVASCRIPT(básico), PHP(básico), JAVA, SQL(básico), C#(básico), OOP</p> <br>
+            
+            <p><h3>Engenharia de software </h3>
+                    <p>Modelação de sistemas usando UML<br>
+                        Processo de software<br>
+                        Boas Práticas de Programação<br>
+                        Orientação a Objectos<br>
+                        Entre outros conceitos comuns na Programação</p><br>
+
+                <h3>Aprendendo...</h3>
+                <p>SASS, ANJULAR.JS, NODE.JS e LARAVEL</p>
+            </p>
+        </section>
+        </div>
+        <div class="sobreMim" id="minha-imagem">
+            <img src="imagens/sobreMim.jpg" alt="imagem">
+        
+    </div>
+
+    <!-- parte do contacto -->
+        <div class="contacto" id="parte-contacto">
+      
+                <h1>contacte-me</h1>
+                <p>Deixe ficar a tua menssagem</p>
+
+            <!-- form de contacto -->
+            <div class="form-container">
+                <form action="">
+                    <input type="text" name="nome" placeholder="Nome">
+                    <input type="email" name="email" placeholder="Email"><br>
+                    <input type="text" name="assunto" placeholder="Assunto">
+                    <textarea name="message" id="menssagem" placeholder="Menssagem" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+            <!-- footer com dados alternativos de contacto -->
+            <footer>
+                <ul>
+                    <li><img src="icons/phone_icon.png" alt="phone_icon">(+258) 84 515 1007</li>
+                    <li><img src="icons/mail_icon.png" alt="mail_icon">milicemuhate@gmail.com</li>
+                    <li><img src="icons/location.png" alt="location">Mozambique, Maputo, Unidade7</li>
+                </ul>
+            </footer>    
+        </div>
+        
+    </div>
+
+    <!-- javaScript -->
+    <script src="js/navbar.js"></script>
+</body>
+</html>

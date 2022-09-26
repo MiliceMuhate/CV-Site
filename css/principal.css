@@ -1,0 +1,181 @@
+html{
+    scroll-behavior:smooth;
+}
+
+*{
+    text-decoration: none;
+    text-decoration-style: none;
+    box-sizing: border-box;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* div contendo toda a parte principal */
+.principal{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    min-height: 200px;
+    min-width: 200px;
+}
+/* ----------------------- */
+
+#logo{
+    position: fixed;
+    top: 10px;
+    left: 0;
+    padding: 0px 0px 5px 0px;
+    margin: 15px 15px;
+    color: rgba(47, 48, 133, 0.842);
+    letter-spacing: 1.6px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all .5s;
+    /* fazer o logo se sobrepor a imagem e a nav durante o scroll */
+    z-index: 3;
+}
+
+/* parte da barra de navegacao */
+#navbar{
+    position:fixed;
+    top: 0%;
+    left: 0px;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 1;
+    min-width: 200px;
+    transition: all .5s ease-in-out;
+}
+
+nav{
+    width: 100%;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul{
+    text-decoration: none;
+    text-decoration-style: none;
+    position: absolute;
+    top: 40%;
+    right: 7%;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+    display: inline;
+    padding: 20px 10px;
+    transition: all .4s ease-in-out;
+}
+
+nav li:hover{
+    background-color:rgb(216, 198, 120) ;
+}
+
+nav ul li a{
+    color: #000;
+    padding: 10px 0px;
+}
+/* ----------------------------------------------- */
+
+/* Imagem de apresentacao */
+.imagem{
+    position: absolute;
+    left: 0%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+.imagem img{
+    position: absolute;
+    left: 0%;
+    bottom: -30%;
+    width: 230%;
+    height: 180%;
+    min-height: 200px;
+    min-width: 200px;
+}
+/* ---------------------------------- */
+
+/* parte da apresentacao verbal e breve */
+.apresentacao{
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    min-height: 200px;
+    min-width: 200px;
+    background-color: rgb(243, 226, 149);
+    overflow-y: auto;
+}
+
+.breve{
+    position:absolute;
+    left: 10%;
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    top: 25%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}  
+
+.breve h1{
+    font-size: 60px;
+    color: rgba(241, 241, 241, 0.952);
+}
+.breve .botoes{
+    width: 80%;
+    padding: 50px;
+    margin: auto;
+}     
+
+.breve button{
+    border-radius: 100px;
+    border: 3px solid #000;
+    height: 55px;
+    width: 150px;
+    line-height: 50px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    transition: all 0.4s ease-in-out;
+    text-transform: uppercase;
+    background-color: rgb(243, 226, 149);
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.breve button:hover{
+    background-color:rgb(189, 175, 112) ;
+    border: 3px solid #fff;
+    width: 200px;
+}
+
+.breve button a{
+    color: #000;
+    padding: 15px 30px;
+    transition: all .6s;
+}
+
+.breve button a:hover{
+    color: #fff;
+    letter-spacing: 3px;
+}
+

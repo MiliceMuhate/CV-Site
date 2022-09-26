@@ -1,0 +1,80 @@
+/* responsividade do formulario */
+@media only screen and (max-width: 800px){
+form{
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 660px){
+    .form-container{
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    .form-container{
+        height: 70%;
+    }
+
+    input[type=text], input[type=email]{
+        margin: 5px 0px;
+        width: 100%;
+    }
+
+    input[type=email]{
+        float: left;
+    }
+}
+
+/* responsividade do footer */
+@media only screen and (max-width: 1175px){
+    footer ul{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    footer {
+        height: 120px;
+    }
+
+    footer ul li{
+        padding: 15px 0px 0px 50px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+    
+    footer ul li{
+        padding: 15px 0px 0px 10px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 504px){
+    footer {
+        height: 170px;
+    }
+
+    footer ul li{
+        padding: 15px 0px 0px 10px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 370px){
+    footer {
+        height: 170px;
+    }
+
+    footer ul li{
+        padding: 15px 0px 0px 0px;
+        
+    }
+
+}
