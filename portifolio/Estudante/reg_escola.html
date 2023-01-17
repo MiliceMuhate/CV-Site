@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registo.css">
+    <title>Registo de Estudantes e Encarregados</title>
+</head>
+<body>
+    <!-- cabecalho -->
+    <header>
+        <!--Barra de navegacao -->
+        <nav>
+            <ul>
+                <div class="dropdown">
+                    <li ><a>Sobre</a></li>
+                    <div class="dropdown-content">
+                        <p>
+                            Este é um projecto académico que visa dar aos encarregados de educação um 
+                            maior controle e particiapação no processo de ensino e aprendizado dos seus educandos. <br>
+    
+                            Atravéz desta plataforma é possível: <br>
+                            -controlar as notas <br>
+                            -controlar as faltas <br>
+                            -controlar a pontualidade <br>
+                            -controlar a presença de fichas <br>
+                            -controlar o período de testes/exames <br>
+                            -controlar o horário <br>
+                            -etc...
+                        </p>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+     <!-- registo da escola -->
+     <div class="registo-escola">
+        <h3>Escola</h3>
+        <form action="reg_enc.html" class="dados-da-escola">
+            <label for="escola">Nome</label><br>
+            <input type="text" name="escola"><br>
+
+            <label for="diretor">Nome do(a) Director(a)</label><br>
+            <input type="text" name="director"><br>
+
+            <label for="numero">Contacto</label><br>
+            <input type="number" name="contacto"><br>
+
+            <label for="pedagogico">Nome do Director(a) Pedagógico</label><br>
+            <input type="text" name="pedagogico"><br>
+
+            <label for="numero-pedagogico">Contacto</label><br>
+            <input type="number" name="contacto-pedagogico"><br>
+
+            <label for="diretor-turma">Nome do(a) Director(a) de Turma</label><br>
+            <input type="text" name="director-turma"><br>
+
+            <label for="numero-dt">Contacto</label><br>
+            <input type="number" name="contacto-dt"><br>
+            
+            <input type="submit" value="Proximo">
+        </form>
+    </div>

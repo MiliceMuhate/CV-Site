@@ -31,7 +31,7 @@
     .apresentacao{
         width: 100%;
         left: 0%;
-        background-color: rgba(243, 226, 149, 0.452);
+        background: linear-gradient(to right, rgba(0, 0, 255, 0.226), rgba(255, 0, 0, 0.247));
     }
 }
 
@@ -55,12 +55,15 @@
         left: -70%;
         width: 380%;
     }
-   
+    #navbar{
+        height: 120px;
+    }
+    
 }
 
 @media only screen and (max-width: 361px){
     #navbar{
-        height: 80px;
+        height: 100px;
     }
     nav ul{
         
@@ -76,6 +79,6 @@
     .apresentacao{
         width: 100%;
         left: 0%;
-        background-color: rgba(243, 226, 149, 0.452);
+        background: linear-gradient(to right, rgba(0, 0, 255, 0.226), rgba(255, 0, 0, 0.247));
     }
 }

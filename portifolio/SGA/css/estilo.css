@@ -1,0 +1,89 @@
+body{
+  background-color:beige !important;
+  overflow-x: hidden !important;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+   display: inline-block;
+}
+
+#nome{
+    float: right;
+    right: 0px;
+    /* border: 0px; */
+}
+
+
+/* ====================================================== */
+/* amburguer bar */
+
+.amburguer{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.amburguer-bar{
+    width: 35px;
+    height: 5px;
+    background-color: rgb(36, 36, 36);
+    margin: 6px 0px;
+    transition: 0.4s;
+}
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
+
+  /* ========================================= */
+  aside{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(184, 184, 184);
+    float: left;
+    width: 25%;
+    height: 600px;
+  }
+
+  aside .nav-link{
+    color:black;
+    
+  }
+  
+  /* ========================================== */
+  /* parte principal */
+  main{
+    box-sizing: border-box;
+    width: 72%;
+    height: 600px;
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(128, 128, 128);
+  }
+
+  th:nth-child(even) {
+    background-color: #ececec !important;
+  }
+
+  main button{
+    float: right;
+    margin: 10px;
+  }

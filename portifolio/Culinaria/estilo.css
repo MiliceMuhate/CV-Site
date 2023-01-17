@@ -1,0 +1,281 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.grid-container{
+    position: absolute;
+}
+/* estilizacao do cabacalho */
+#header{
+    background-color: rgb(41, 197, 254);
+    padding: 10px;
+    width: 100%;
+    height: 90px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#logo{
+    font-size: 30px;
+    padding: 10px;
+    margin: 2px solid rgb(255, 255, 255);
+    color: white;
+    display: inline-block;
+    letter-spacing: 4px;
+}
+.logo-img{
+    width: 88px;
+    height: 90px;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    top: -65px;
+}
+.logo-img img{
+    width: 190%;
+    height: 110%;
+    position: relative;
+    left: -40px;
+}
+/* nav{
+    float: right;
+    width: 340px;
+    padding: 10px;
+    position: relative;
+}
+.dados{
+    position: relative;
+    right: 30px;
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+}
+.dados li{
+    display: inline;
+    padding: 10px;
+}
+.dados li:hover{
+    background-color: rgb(60, 203, 255);
+}
+.dados li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+} */
+/* .lista_pratos{
+    position: relative;
+    display: inline-block;
+    padding: 10px ;
+    list-style: none;
+}
+.lista_pratos:hover{
+    background-color:rgb(60, 203, 255) ;
+}
+
+.lista_pratos li{
+    color: white;
+}
+.lista_pratos li p{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.tipos_pratos ol{
+    color: white;
+}
+
+.tipos_pratos ol li{
+    padding: 5px;
+}
+.tipos_pratos ol li:hover{
+    background-color:rgb(60, 203, 255) ;
+}
+
+.tipos_pratos{
+    position: absolute;
+    display:none;
+    background-color: rgb(41, 197, 254);
+    box-shadow:0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    right: 0px;
+    z-index: 1;
+}
+.tipos_pratos a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.lista_pratos:hover .tipos_pratos{
+    display:block;
+} */
+/* Parte principal */
+#main{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: inline-block;
+}
+
+#main section{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+#titulo{
+    color: black;
+    letter-spacing: 1px;
+    position: relative;
+    float: left;
+    font-size: 15px;
+    padding: 20px 10px 10px 10px;
+    width: 80%;
+    min-width: 450px;
+}
+.preparacao{
+    color: rgb(41, 197, 254);
+    padding-bottom: 10px;
+}
+
+/* parte lateral */
+#aside{
+    position: relative;
+    top: 20px;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.ingredientes{
+    color: rgb(41, 197, 254);
+    padding-bottom: 10px;
+}
+#aside section{
+    background-color: rgba(41, 197, 254, 0.254);
+    padding: 20px;
+}
+section ul{
+    color:rgb(41, 197, 254);
+}
+section ul li{
+    font-size: small;
+    color: black;
+}
+
+/* grid layout*/
+.grid-container{
+    display: grid;
+    /* 3 colunas e 7 linhas */
+    grid-template-columns: auto auto auto;
+    grid-template-rows:auto auto auto auto auto auto;
+    height: 100%;
+}
+
+.grid-item{
+    width: 100%;
+    height: 100%;
+}
+
+#header{
+    grid-column: 1/4;
+}
+#aside{
+    grid-row:2/6;
+}
+#titulo{
+    grid-column: 2/3;
+}
+#imagem{
+    grid-row: 3/4;
+    grid-column: 2/3;
+    padding: 10px 0px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#imagem img{
+    position: relative;
+    width: 100%;
+    height: 150%;
+    bottom: 40px;
+}
+#main{
+    grid-row: 4/6;
+    grid-column: 2/3;
+}
+#footer{
+    grid-column: 1/4;
+}
+
+/* estilizacao do footer */
+#footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(41, 197, 254);
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+#footer ul{
+    list-style: none;
+    width: 100%;
+    margin: auto;
+}
+#footer ul li{
+    display: inline;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+}
+#footer ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+/* aside direito*/
+.tipos_pratos_aside{
+    position: relative;
+    background-color: rgba(41, 197, 254, 0.829);
+    padding: 5px 25px;
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    right: 0px;
+}
+.tipos_pratos_aside ol{
+    color: white;
+}
+
+.tipos_pratos_aside ol li{
+    padding: 5px;
+}
+.tipos_pratos_aside ol li:hover{
+    background-color:rgba(47, 164, 206, 0.829) ;
+}
+
+.tipos_pratos_aside a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+/* divs publicitarias */
+.ads{
+    position: relative;
+    background-color: rgba(92, 93, 94, 0.829);
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    right: 0px;
+}

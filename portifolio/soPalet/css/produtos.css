@@ -1,0 +1,362 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #088178;
+}
+
+.tot{
+    width: 100%;
+    display: inline;
+    margin: 10px;
+    max-width: 700px;    
+    padding: 10px;
+    position: relative;
+}
+
+.fts{    
+    position: relative;
+    display: inline;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.imagem2{
+    width: 500px;
+    height: 400px;
+}
+
+
+.pri{
+    position: absolute;
+    box-shadow: 0px 0px 5px black;
+    transition: opacity 1s ease-out;
+}
+
+
+.sec{
+    
+    box-shadow: 0px 0px 5px black;
+    transition: opacity 1s ease-in;
+}
+.sec{
+    margin-left: 270px;
+}
+
+.sec1{
+    margin-left: 270px;
+    box-shadow: 0px 0px 5px black;
+    transition: opacity 1s ease-in;
+    border-radius: 10px;
+}
+.info, .info2{
+    width: 100%;
+    display: inline;
+
+}
+
+
+
+.direita, .direita2{
+    position: absolute;
+    top: 40%;
+    border-style: none;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+    background: linear-gradient(90deg, transparent,transparent, yellow);
+    border-radius: 0px 10px 10px 0px;
+    transition: 5s ease-in;
+    font-size: 50px;
+    right:-20px;
+    z-index: 1; 
+}
+
+.direita:hover, .direita:hover{
+    background: linear-gradient(90deg, transparent, yellow);
+    opacity: 1;
+    transition: 5s ease-out;
+}
+
+.esquerda, .esquerda2{
+    position: absolute;
+    top: 40%;
+    border-style: none;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+    background: linear-gradient(90deg, yellow,transparent, transparent);
+    border-radius: 10px 0px 0px 10px;
+    transition: 5s ease-in;
+    font-size: 50px;
+    left:0;
+    z-index: 1;
+}
+
+.esquerda:hover, .esquerda2:hover{
+    background: linear-gradient(90deg, yellow, transparent);
+    opacity: 1;
+    transition: 5s ease-out;
+}
+
+img{
+    max-width: 300px;
+
+}
+
+.sec{
+    max-width: 100px;
+    border-radius: 10px;
+}
+
+
+
+/* =========================================== */
+/* parte de produtos */
+#produtos {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+#produtos .fe-box {
+    width:180px;
+    height: 300px;
+    text-align:center;
+    padding:25px 15px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+    border:1px solid #cce7d0;
+    border-radius:4px;
+    margin:15px 0;
+}
+
+#produtos .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70,62,221,0.3);
+    cursor: pointer;
+}
+
+#produtos .fe-box h6 {
+    display:inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius:4px;
+    color:#088178;
+    background-color:#fddde4;
+}
+
+.fe-box p{
+    color:#fff;
+    font-size: large;
+}
+
+#produtos .fe-box:nth-child(2) h6 {
+    background-color:#cdebbc;
+}
+#produtos .fe-box:nth-child(3) h6 {
+    background-color:#d1e8f2;
+}
+#produtos .fe-box:nth-child(4) h6 {
+    background-color:#cdd4f8;
+}
+#produtos .fe-box:nth-child(5) h6 {
+    background-color:#f6dbf6;
+}
+#produtos .fe-box:nth-child(6) h6 {
+    background-color:#fff2e5;
+}
+
+#produtos .fe-box img {
+    width:100%;
+    height: 90%;
+    margin-bottom:10px;
+}
+
+#bases {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+#bases .fe-box {
+    width:180px;
+    text-align:center;
+    padding:25px 15px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+    border:1px solid #cce7d0;
+    border-radius:4px;
+    margin:15px 0;
+
+}
+
+#bases .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70,62,221,0.3);
+
+}
+
+#bases .fe-box h6 {
+    display:inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius:4px;
+    color:#088178;
+    background-color:#fddde4;
+}
+
+#bases .fe-box img{
+    width: 100%;
+}
+
+
+#text1{
+    padding: 10px 20px 20px;
+    margin-left: 10px;
+
+}
+
+/* ==================================== */
+.container {
+    position: relative;
+  }
+  
+  .mySlides {
+    display: none;
+    overflow: hidden;
+    width: 400px;
+    margin: auto;
+    height: 400px;
+  }
+
+  .mySlides img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  .demo {
+    opacity: 0.6;
+    width: 100px;
+    height: 120px;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  /* ======================================== */
+ .modal{
+    position: fixed; /* Stay in place */
+    display: none;
+    z-index: 1; /* Sit on top */
+    left: 10%;
+    top: 10%;
+    width: 70%;    
+    height: 70%;
+    overflow: hidden; 
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+ } 
+
+ .modal-content {
+    position: relative;
+    top:0;
+    background-color:#222;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%; /* Could be more or less, depending on screen size */
+    
+}
+
+
+  .modal-content{
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+ 
+  /* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* ================================== */ 
+  footer{
+    top:390%
+  }

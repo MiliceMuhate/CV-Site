@@ -11,8 +11,11 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 100%;
-    background-color: rgba(236, 236, 236, 0.534);
+    top: 270%;
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.61), rgba(255, 0, 0, 0.589));
+}
+.contacto hr{
+    color: #fff;
 }
 
 .contacto h1, p{
@@ -20,6 +23,7 @@
     text-transform: uppercase;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.712);
 }
 .contacto h1{
     margin-top: 70px;
@@ -32,7 +36,8 @@
     margin: 50px auto;
     box-shadow: 0 0 10px #ccc;
     padding: 10px;
-    background-color: rgb(243, 226, 149);
+    background-color: rgba(255, 255, 255, 0.116);
+    border-radius: 15px;
 }
 
 form{
@@ -49,6 +54,8 @@ input[type=text], input[type=email]{
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.192);
     letter-spacing: 1px;
+    border-radius: 10px;
+    color: #fff;
 }
 
 input[type=text]{
@@ -77,6 +84,8 @@ textarea{
     margin: 10px 0px;
     background-color: rgba(255, 255, 255, 0.192);
     letter-spacing: 1px;
+    border-radius: 10px;
+    color: #fff;
 }
 
 input[type=submit]{
@@ -86,25 +95,26 @@ input[type=submit]{
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-    background-color: rgb(243, 226, 149);
+    background-color: rgba(255, 255, 255, 0.336);
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 16px;
-    box-shadow: 0 0 15px rgb(255, 255, 255);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.212);
     cursor: pointer;
 }
 
 input[type=submit]:hover{
-    background-color: rgb(189, 175, 112);
+    background-color: rgba(255, 255, 255, 0.74);
 }
 
 /* estilizacao do footer */
 footer{
-    position: relative;
+    position: absolute;
+    top:370%;
     width: 100%;
-    height: 80px;
-    background-color:rgb(243, 226, 149);
+    height: 100px;
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.61), rgba(255, 0, 0, 0.589));
     padding: 0px 30px;
 }
 
@@ -112,6 +122,8 @@ footer ul{
     width: 70%;
     margin:auto;
     list-style: none;
+    color: rgba(255, 255, 255, 0.74);
+    
 }
 
 footer ul li{

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <h1 class="logo"><a href="index.html">SoPallet</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+                <li><a href="#footer">Contacto</a></li>
+            </ul>
+        </nav>
+     
+    </header>
+<div class="container">
+        <h2>Fazer login</h2>
+        <form action="conexao.php" id="formlogin" method="post">
+                <?php if (isset($resultado) && $resultado["cod"] == 0): ?>
+                    <div class="alert alert-danger">
+                        <?php echo $resultado["msg"];?> 
+                    </div>
+                <?php endif ;?>
+                <div class="">
+                    <label for="">Usuario:</label><br>
+                    <input type="email" class="form-control" name="email" id="floatingInput" placeholder="name@example.com"><br>
+                    
+                    <label for="">Password:</label>
+                    <input type="password" name="senha" class="form-control" id="floatingPassword" placeholder="Password">
+                    
+                </div>
+                <small>*Nao sera partilhado com ninguem</small><br><br>
+                <input class="btn btn-primary" type="submit" value="Entrar">
+        </form>
+    </div>
+
+    <!-- contacto no footer footer -->
+<footer id="footer">
+    <!-- informacoes de contacto, endereco, email, telefone, icons,  -->
+    <h1 class="logo logo-foot"><a href="index.html">SoPallet</a></h1>
+    <nav class="nav-foot">
+        <ul class="ul-foot">
+            <li class="li-foot"><a href="index.html">Principal</a></li>
+            <li class="li-foot"><a href="#sobre">Sobre</a></li>
+            <li class="li-foot"><a href="perfil.html">Perfil</a></li>
+            <li class="li-foot"><a href="#footer">Contacto</a></li>
+        </ul>
+    </nav>
+    <!-- icons de contacto -->
+    <div class="icons">
+        <ul>
+            <li><img src="imagens/call-icon.png" alt="icon">845151007</li>
+            <li><a href="#"><img src="imagens/email-icon.png" alt="icon">grupo@gmail.com</a></li>
+            <li><a href="#"><img src="imagens/fb-icon.png" alt="icon">fb.com/sopalete</a></li>
+            <li><a href="#"><img src="imagens/instagram-icon.png" alt="icon">instagram.com/sopalet</a></li>
+            <li><a href="#"><img src="imagens/twitter-icon.png" alt="icon">twitter.com/sopalete</a></li>
+        </ul>
+    </div>
+
+<div class="direitos">
+    Copyright 2022 todo o credito ao grupo.
+</div>
+</footer>
+</body>
+</html>

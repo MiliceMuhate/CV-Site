@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inicial.css">
+    <title>Home</title>
+</head>
+<body>
+    <!-- cabecalho -->
+    <header>
+        <!--Barra de navegacao -->
+        <nav>
+            <ul>
+                <li><a href="registo.html">Registar</a></li>
+                <div class="dropdown">
+                    <li ><a href="#">Sobre</a></li>
+                    <div class="dropdown-content">
+                        <p>
+                            Este é um projecto académico que visa dar aos encarregados de educação um 
+                            maior controle e particiapação no processo de ensino e aprendizado dos seus educandos. <br>
+    
+                            Atravéz desta plataforma é possível: <br>
+                            -controlar as notas <br>
+                            -controlar as faltas <br>
+                            -controlar a pontualidade <br>
+                            -controlar a presença de fichas <br>
+                            -controlar o período de testes/exames <br>
+                            -controlar o horário <br>
+                            -etc...
+                        </p>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <!-- formulario de registo default na pagina de registo -->
+    <!--  -->
+    <div class="entrar-encarregado">
+        <form action="index.html" method="post">
+            <label for="cellphone">Nr de Telefone</label><br>
+            <input type="number" name="telefone" id="telefone"><br>
+            
+            <label for="password">Senha</label><br>
+            <input type="password" name="senha" id="senha"><br>
+            <p style="padding: 5px;">
+                <h5>Esqueceu a senha? clique <a href="#">aqui</a></h5>
+            </p><br>
+            <input type="submit" value="Entrar">
+        </form>
+    </div> 
+    <div class="texto">
+        <p><h3>Aconpanhe a educação do seu educando sem precisar se deslocar a escola! <br>
+        Faltas, notas, o horario, comportamento, etc. Saiba de tudo!</h3></p>
+    </div>   
+</body>
+</html>

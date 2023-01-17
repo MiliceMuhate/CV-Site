@@ -33,7 +33,7 @@ html{
     left: 0;
     padding: 0px 0px 5px 0px;
     margin: 15px 15px;
-    color: rgba(47, 48, 133, 0.842);
+    color: rgba(164, 164, 209, 0.842);
     letter-spacing: 1.6px;
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
@@ -49,10 +49,10 @@ html{
     left: 0px;
     height: 60px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0);
     z-index: 1;
     min-width: 200px;
     transition: all .5s ease-in-out;
+    overflow: hidden;
 }
 
 nav{
@@ -66,7 +66,7 @@ nav ul{
     text-decoration: none;
     text-decoration-style: none;
     position: absolute;
-    top: 40%;
+    top: 20%;
     right: 7%;
     border: 0px;
     margin: 0px;
@@ -74,21 +74,29 @@ nav ul{
 }
 
 nav li{
-    display: inline;
-    padding: 20px 10px;
-    transition: all .4s ease-in-out;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px;
+    transition: all .5s ease-in-out;
 }
 
 nav li:hover{
-    background-color:rgb(216, 198, 120) ;
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.11), rgba(255, 0, 0, 0.11));
 }
 
 nav ul li a{
-    color: #000;
+    color: rgb(255, 255, 255);
     padding: 10px 0px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #fff;
 }
 /* ----------------------------------------------- */
-
+.main{
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.61), rgba(255, 0, 0, 0.589));
+    height: 100%;
+}
 /* Imagem de apresentacao */
 .imagem{
     position: absolute;
@@ -107,6 +115,7 @@ nav ul li a{
     height: 180%;
     min-height: 200px;
     min-width: 200px;
+    opacity: .96;
 }
 /* ---------------------------------- */
 
@@ -118,8 +127,8 @@ nav ul li a{
     height: 100%;
     min-height: 200px;
     min-width: 200px;
-    background-color: rgb(243, 226, 149);
-    overflow-y: auto;
+    background-color: rgba(105, 255, 75, 0.11);
+    overflow:hidden;
 }
 
 .breve{
@@ -136,17 +145,20 @@ nav ul li a{
 
 .breve h1{
     font-size: 60px;
-    color: rgba(241, 241, 241, 0.952);
+    color: rgba(255, 255, 255, 0.938);
 }
 .breve .botoes{
     width: 80%;
     padding: 50px;
     margin: auto;
 }     
+.breve h3{
+    color: #fff;
+}
 
 .breve button{
     border-radius: 100px;
-    border: 3px solid #000;
+    border: 3px solid rgba(255, 255, 255, 0.808);
     height: 55px;
     width: 150px;
     line-height: 50px;
@@ -155,27 +167,29 @@ nav ul li a{
     letter-spacing: 1.6px;
     transition: all 0.4s ease-in-out;
     text-transform: uppercase;
-    background-color: rgb(243, 226, 149);
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.103), rgba(255, 0, 0, 0.158));
     display: flex;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+
 }
 
 .breve button:hover{
-    background-color:rgb(189, 175, 112) ;
+    background-color:rgba(250, 234, 162, 0.336) ;
     border: 3px solid #fff;
     width: 200px;
 }
 
 .breve button a{
-    color: #000;
+    color: rgba(255, 255, 255, 0.856);
     padding: 15px 30px;
     transition: all .6s;
+    text-decoration: none;
 }
 
 .breve button a:hover{
-    color: #fff;
+    color: rgba(255, 255, 255, 0.5);
     letter-spacing: 3px;
 }
 

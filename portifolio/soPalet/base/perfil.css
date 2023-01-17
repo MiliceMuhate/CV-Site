@@ -1,0 +1,258 @@
+*{
+    margin:0;
+    border:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* cabecalho */
+
+header{
+    width:100%;
+    height: 100px;
+    background-color: rgba(253, 253, 44, 0.808);
+}
+
+.logo{
+    float: left;
+    margin:15px 10px;
+    font-size: 30px;
+    padding: 20px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+.logo a{
+    color:rgb(143, 143, 143);
+    text-decoration:none;
+}
+
+nav{
+    width: 40%;
+    height: 30px;
+    margin: 10px auto;
+    padding: 40px;
+}
+
+nav ul{
+    list-style: none;
+    color: white;
+}
+
+nav ul li{
+    display:inline;
+    font-size: 20px;
+    padding: 20px;
+}
+
+nav ul li a{
+    cursor:pointer;
+    color: rgb(131, 130, 128);
+    letter-spacing:1px;
+    text-decoration:none;
+}
+nav ul li a:hover{
+    text-decoration:underline;
+}
+
+.login{
+    position: relative;
+    display: inline;
+    float: right;
+    padding: 20px;
+    top:-75px;
+}
+.login button{
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(228, 228, 37, 0.808);
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing:1px;
+    cursor: pointer;
+}
+
+.login button:hover{
+    background-color:rgba(241, 241, 77, 0.808);
+}
+
+.mais{
+    position: relative; 
+    width: 50px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px 0px 10px;
+    float: right;
+    top:-65px;
+}
+
+/* main */
+
+.apresentacao{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.slogan{
+    position:absolute;
+    top:5%;    
+    margin: 10% 5%;
+    font-size: 80px;
+    z-index: 1;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.textual{
+    position:absolute;
+    top:30%;
+    padding:20px;
+    margin:10px;
+    z-index: 1;
+}
+
+.textual button{
+    position: relative;
+    display: block;
+    top:200px;
+    left: 800px;
+    padding: 15px 25px;
+    margin: 16px 25px;
+    background-color: rgba(228, 228, 37, 0.808);
+    border-radius: 10px;
+    font-size: 17px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing:1px;
+    cursor: pointer;
+}
+.textual button:hover{
+    background-color:rgba(241, 241, 77, 0.808);
+}
+.textual button a{
+    color:#fff;
+}
+.apresentacao img{
+    position: absolute;
+    top: 110px;
+    width: 100%;
+    height: 84%;
+}
+
+/* parte da descricao do perfil */
+.dados-pessoais{
+    position:relative;
+    width:400px;
+    height:560px;
+    text-align:center;
+    margin:10px 5px;
+    left:10px;
+    border:5px solid rgb(87, 87, 87);
+}
+.foto{
+    width:380px;
+    height:350px;
+    margin: 1px auto;
+    overflow:hidden;
+}
+.foto img{
+    width:130%;
+    height:150%;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+table tr{
+    border-bottom: 1px solid rgb(83, 83, 83);
+}
+
+.estatistica{
+    position: absolute;
+    top: 110px;
+    right: 0%;
+    margin:10px;
+    width: 910px;
+    height: 560px;
+    border: 2px solid rgb(83, 83, 83);
+}
+.actividade{
+    width: 95%;
+    height: 90%;
+    margin: 10px auto;
+    border: 5px solid rgb(83, 83, 83);
+}
+
+
+
+
+
+/* parte do footer */
+footer{
+    position: absolute;
+    top:100%;
+    width: 100%;
+    height: 350px;
+    background-color:rgb(65, 65, 65) ;
+}
+
+.logo-foot{
+    float: none;
+    text-align: center;
+    margin: 0;
+    padding: 20px 20px 0px;
+}
+.nav-foot{
+ margin: 0 auto;
+}
+.li-foot a{
+    color:#fff;
+}
+
+.direitos{
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: 60px;
+    background-color:rgb(253, 253, 44) ;
+    text-align: center;
+    padding: 15px;
+    font-size: larger;
+}
+
+/* icons econtacto */
+.icons{
+    width: 100%;
+    height: 80px;
+}
+
+.icons ul{
+    list-style: none;
+    margin: 30px 5px 0px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.icons li{
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.icons li img{
+    margin: 5px;
+}
+
+.icons li a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.icons li a:hover{
+    text-decoration: underline;
+}

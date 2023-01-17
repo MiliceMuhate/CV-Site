@@ -1,0 +1,19 @@
+Este é um projecto académico que visa dar aos encarregados de educação um maior controle e particiapação
+no processo de ensino e aprendizado!
+
+O projecto tem por objectivo criar uma plataforma digital de controle e acompanhamento do desempenho escolar.
+Atravez deste sera possível:
+-controlar as notas
+-controlar as faltas
+-controlar a pontualidade
+-controlar a presença de fichas
+-controlar o periodo de testes/exames
+-controlar o horário
+-etc...
+
+Estrutura: Na pagina inicial, tem-se o formulari de entrar com o nr de telefone e codigo.
+...
+
+
+Mas...
+Numa primeira fase sera apenas uma agenda pessoal paga

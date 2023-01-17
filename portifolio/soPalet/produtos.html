@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/produtos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <title>Produtos</title>
+</head>
+<body >
+    <!--style = "background-image: url('imagens/pexels-ihor-lypnytskyi-9830311(1).jpg');background-repeat: no-repeat;background-clip: border-box;background-size: contain;"-->
+    <header>
+        <h1 class="logo"><a href="index.html">SoPallet</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+                <li><a href="#footer">Contacto</a></li>
+            </ul>
+        </nav> 
+        
+        <span class="login">
+            <form action="registo.html" method="post">
+               <button >Registar</button>
+            </form>
+        </span>
+        <span class="login">
+            <form action="Login.html" method="post">
+               <button >Entrar</button>
+    </header>
+    <!-- =============================================================== -->
+    <!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="produtos/balcao.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="produtos/prateleira2.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="produtos/balcao3.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="produtos/balcao4.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="produtos/prateleira.jpeg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="produtos/base7.jpg" style="width:100%">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="produtos/balcao.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="produtos/prateleira2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="produtos/balcao3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="produtos/balcao4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="produtos/prateleira.jpeg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="produtos/base7.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+      </div>
+    </div>
+  </div>
+
+    
+    <!-- ==================================================================== -->
+    <p id="text1"><h1>Cadeiras</h1></p>
+
+            <div class="tot">
+                
+        <div class="info">
+            <button class="esquerda">&#10094;</button>            
+            <p class="desc"></p>
+            <button class="direita">&#10095;</button>
+        </div>
+
+        <div class="fts">
+            <img id="pri" class="imagem pri" src="produtos/cadeira.jpeg" alt="Cadeiras"/>
+            <img id="sec" class="imagem sec" src="produtos/cadeira2.jpg" alt="Cadeiras"/>
+            <img class="imagem" src="produtos/cadeira3.jpg" alt="Cadeiras"/>
+            <img class="imagem" src="produtos/cadeira4.jpg" alt="Cadeiras"/>
+            <img class="imagem" src="produtos/cadeira6.jpg" alt="Cadeiras"/>
+            
+        </div>
+    </div>
+    
+    <!--</section>-->
+    <p id="text1"><h1>Bases</h1></p>
+
+            <div class="tot">
+        
+                <div class="info2">
+                    <button class="esquerda2">&#10094;</button>                    
+                    <p class="desc2"></p>
+                    <button class="direita2">&#10095;</button>
+                </div>
+
+        <div class="fts">
+            <img id="pri2" class="imagem2 pri" src="produtos/base.png" alt="Cadeiras"/>
+            <img id="sec2" class="imagem2 sec" src="produtos/base2.jpg" alt="Cadeiras"/>
+            <img id="inv" class="imagem2" src="produtos/base3.jpg" alt="Cadeiras"/>
+            <img id="inv" class="imagem2" src="produtos/base4.jpg" alt="Cadeiras"/>
+            <img id="inv" class="imagem2" src="produtos/base6.jpg" alt="Cadeiras"/>
+            
+        </div>
+    </div>
+
+    <!-- ========================================================= -->
+    <h1>Mais Produtos Diversos</h1>
+    <section id="produtos" class="section-p1">
+        
+        <div id="box1" class="fe-box">
+            <img id="img1" src="produtos/cadeira.jpeg" alt="Cadeiras"/>
+            <div class="modal" id="mod1">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/cadeira.jpeg" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>1500mt</p>
+        </div>
+
+        <div id="box2" class="fe-box">
+            <img id="img2" src="produtos/balcao.jpg" alt="Cadeiras"/>
+            <div class="modal" id="mod2">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/balcao.jpg" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>2500mt</p>
+        </div>
+
+        <div id="box3" class="fe-box">
+            <img id="img3" src="produtos/cadeira2.jpg" alt="Cadeiras"/>
+            <div class="modal" id="mod3">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/cadeira2.jpg" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>1500mt</p>
+        </div>
+
+        <div id="box4"class="fe-box">
+            <img id="img4" src="produtos/cadeira3.jpg" alt="Cadeiras"/>
+            <div class="modal" id="mod4">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/cadeira3.jpg" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>2000mt</p>
+        </div>
+
+        <div id="box5" class="fe-box">
+            <img id="img5" src="produtos/balcao2.jpg" alt="Cadeiras"/>
+            <div class="modal" id="mod5">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/balcao2.jpg" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>2500mt</p>            
+        </div>
+
+        <div id="box6" class="fe-box">
+            <img id="img6" src="produtos/cadeira4.jpg" alt="Cadeiras"/>
+            <div class="modal" id="mod6">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/cadeira4.jpg" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>1900mt</p>
+        </div>
+
+        <div id="box7" class="fe-box">
+            <img id="img7" src="produtos/balcao3.jpg" alt="Cadeiras"/>
+            <div class="modal" id="mod7">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/balcao3.jpg" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>1800mt</p>
+        </div>
+
+        <div id="box8" class="fe-box">
+            <img id="img8" src="produtos/cadeira6.jpg" alt="Cadeiras"/>
+            <div class="modal" id="mod8">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/cadeira6.jpg" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>1600mt</p>
+        </div>
+
+        <div  id="box9" class="fe-box">
+            <img id="img9" src="produtos/balcao4.jpg" alt="Cadeiras"/>
+            <div class="modal" id="mod9">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/balcao4.jpg" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>2900mt</p>
+        </div>
+        
+        <div id="box10" class="fe-box">
+            <img id="img10" src="produtos/prateleira4.jpg" alt="Cadeiras"/>
+            <div class="modal" id="mod10">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/prateleira4.jpg" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>500mt</p>
+        </div>
+
+        <div id="box11" class="fe-box">
+            <img id="img11" src="produtos/base.png" alt="Cadeiras"/>
+            <div class="modal" id="mod11">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/base.png" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>4500mt</p>
+        </div>
+
+        <div id="box12" class="fe-box">
+            <img id="img12" src="produtos/decor.jpg" alt="Cadeiras"/>
+            <div class="modal" id="mod12">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/decor.jpg" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>500mt</p>
+        </div>
+
+        <div id="box13" class="fe-box">
+            <img  id="img13" src="produtos/base2.jpg" alt="Cadeiras"/>
+            <div class="modal" id="mod13">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/base2.jpg" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>5000mt</p>
+        </div>
+
+        <div id="box14" class="fe-box">
+            <img id="img14" src="produtos/decor2.png" alt="Cadeiras"/>
+            <div class="modal" id="mod14">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/decor2.png" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>900mt</p>
+        </div>
+
+        <div id="box15" class="fe-box">
+            <img id="img15" src="produtos/base3.jpg" alt="Cadeiras"/>
+            <div class="modal" id="mod15">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/base3.jpg" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>5200mt</p>
+        </div>
+
+        <div id="box16" class="fe-box">
+            <img id="img16" src="produtos/prateleira.jpeg" alt="Cadeiras"/>
+            <div class="modal" id="mod16">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/prateleira.jpeg" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>2500mt</p>
+        </div>
+
+        <div id="box17" class="fe-box">
+            <img id="img17" src="produtos/base4.jpg" alt="Cadeiras"/>
+            <div class="modal" id="mod17">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/base4.jpg" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>6500mt</p>
+        </div>
+
+        <div id="box18" class="fe-box">
+            <img id="img18" src="produtos/prateleira2.jpg" alt="Cadeiras"/>
+            <div class="modal" id="mod18">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/prateleira2.jpg" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>3500mt</p>
+        </div>
+
+        <div id="box19" class="fe-box">
+            <img id="img19" src="produtos/base6.jpg" alt="Cadeiras"/>
+            <div class="modal" id="mod19">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/base6.jpg" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>7500mt</p>
+        </div>
+        <div  id="box20" class="fe-box">
+            <img id="img20" src="produtos/prateleira3.jpeg" alt="Cadeiras"/>
+
+            <div class="modal" id="mod20">
+                <div class="modal-content">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <img src="produtos/prateleira3.jpeg" alt="Cadeiras"/>
+                </div>
+            </div>
+            <p>2500mt</p>
+        </div>
+     
+
+</div>
+</section>
+
+<!-- ========================================================= -->
+
+<!-- contacto no footer footer -->
+<footer id="footer">
+    <!-- informacoes de contacto, endereco, email, telefone, icons,  -->
+    <h1 class="logo logo-foot"><a href="index.html">SoPallet</a></h1>
+    <nav class="nav-foot">
+        <ul class="ul-foot">
+            <li class="li-foot"><a href="index.html">Principal</a></li>
+            <li class="li-foot"><a href="#sobre">Sobre</a></li>
+            <li class="li-foot"><a href="perfil.html">Perfil</a></li>
+            <li class="li-foot"><a href="#footer">Contacto</a></li>
+        </ul>
+    </nav>
+    <!-- icons de contacto -->
+    <div class="icons">
+        <ul>
+            <li><img src="imagens/call-icon.png" alt="icon">845151007</li>
+            <li><a href="#"><img src="imagens/email-icon.png" alt="icon">grupo@gmail.com</a></li>
+            <li><a href="#"><img src="imagens/fb-icon.png" alt="icon">fb.com/sopalete</a></li>
+            <li><a href="#"><img src="imagens/instagram-icon.png" alt="icon">instagram.com/sopalet</a></li>
+            <li><a href="#"><img src="imagens/twitter-icon.png" alt="icon">twitter.com/sopalete</a></li>
+        </ul>
+    </div>
+
+<div class="direitos">
+    Copyright 2022 todo o credito ao grupo.
+</div>
+</footer>
+
+<script src="modal.js"></script>
+<script type="text/javascript" src="javaScript.js"></script>
+</body>
+</html>
